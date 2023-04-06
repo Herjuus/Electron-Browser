@@ -1,6 +1,6 @@
-appId: com.example.nextron
-productName: My Nextron App
-copyright: Copyright © 2018 Yoshihide Shiono
+appId: me.herjus.browser
+productName: Herjus Browser
+copyright: Copyright © 2023 Herjus
 directories:
   output: dist
   buildResources: resources

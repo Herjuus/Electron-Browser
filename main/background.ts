@@ -16,6 +16,12 @@ if (isProd) {
   const mainWindow = createWindow('main', {
     width: 1000,
     height: 600,
+    minWidth: 560,
+    minHeight: 400,
+    titleBarStyle: 'default',
+    webPreferences: {
+      webviewTag: true,
+    }
   });
 
   if (isProd) {
