@@ -17,15 +17,13 @@ function Home() {
     function goBackFunc(){
       view.current.goBack()
     }
-    let canGoBack = view.current.canGoBack();
-      return <MdNavigateBefore onClick={() => goBackFunc()} color='white' size={"28"} className='hover:cursor-pointer'/>
+    return <MdNavigateBefore onClick={() => goBackFunc()} color='white' size={"28"} className='hover:cursor-pointer'/>
   }
   function GoForward(){
     function goForwardFunc(){
       view.current.goForward()
     }
-    let canGoBack = view.current.canGoBack();
-      return <MdNavigateNext onClick={() => goForwardFunc()} color='white' size={"28"} className='hover:cursor-pointer'/>
+    return <MdNavigateNext onClick={() => goForwardFunc()} color='white' size={"28"} className='hover:cursor-pointer'/>
   }
 
   return (
